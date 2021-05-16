@@ -2,10 +2,6 @@ package com.bytestree.restful.dto;
 
 import org.springframework.beans.factory.annotation.Value;
 
-/**
- * @author bytesTree
- * @see <a href="http://www.bytestree.com/">BytesTree</a>
- */
 public interface EmployeeByOpenProjectionRs {
     Long getId();
 

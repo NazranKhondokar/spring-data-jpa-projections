@@ -1,17 +1,7 @@
 package com.bytestree.restful.model;
-
-import lombok.Getter;
-import lombok.Setter;
-
 import javax.persistence.*;
 import java.io.Serializable;
 
-/**
- * 
- * @author bytesTree
- * @see <a href="http://www.bytestree.com/">BytesTree</a>
- * 
- */
 @Entity
 @Table(name = "employee")
 public class Employee implements Serializable {

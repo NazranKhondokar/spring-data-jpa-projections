@@ -12,12 +12,6 @@ import com.bytestree.restful.model.Employee;
 import java.util.List;
 import java.util.Map;
 
-/**
- * 
- * @author bytesTree
- * @see <a href="http://www.bytestree.com/">BytesTree</a>
- * 
- */
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 

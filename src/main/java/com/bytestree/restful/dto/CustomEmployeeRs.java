@@ -1,18 +1,7 @@
 package com.bytestree.restful.dto;
-
-import lombok.Getter;
-import lombok.Setter;
-
 import java.io.Serializable;
 import java.util.Map;
 
-/**
- * @author bytesTree
- * @see <a href="http://www.bytestree.com/">BytesTree</a>
- */
-
-@Setter
-@Getter
 public class CustomEmployeeRs implements Serializable {
 
     private static final long serialVersionUID = -2883410526895516483L;
@@ -38,5 +27,29 @@ public class CustomEmployeeRs implements Serializable {
     }
 
     public CustomEmployeeRs() {
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getDepartmentName() {
+        return departmentName;
+    }
+
+    public void setDepartmentName(String departmentName) {
+        this.departmentName = departmentName;
     }
 }

@@ -1,21 +1,9 @@
 package com.bytestree.restful.model;
-
-import lombok.Getter;
-import lombok.Setter;
-
 import javax.persistence.*;
 import java.io.Serializable;
 
-/**
- *
- * @author bytesTree
- * @see <a href="http://www.bytestree.com/">BytesTree</a>
- *
- */
 @Entity
 @Table(name = "department")
-@Getter
-@Setter
 public class Department implements Serializable {
 
     private static final long serialVersionUID = 796133818701506050L;
@@ -27,4 +15,20 @@ public class Department implements Serializable {
 
     @Column(name = "name", length = 50)
     private String name;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

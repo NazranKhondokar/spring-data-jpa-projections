@@ -12,10 +12,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author bytesTree
- * @see <a href="http://www.bytestree.com/">BytesTree</a>
- */
 @RestController
 @RequestMapping("/api/employee")
 public class EmployeeController {

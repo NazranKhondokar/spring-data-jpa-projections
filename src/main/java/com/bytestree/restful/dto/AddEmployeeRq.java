@@ -1,16 +1,6 @@
 package com.bytestree.restful.dto;
-
-import lombok.Getter;
-import lombok.Setter;
-
 import java.io.Serializable;
 
-/**
- * @author bytesTree
- * @see <a href="http://www.bytestree.com/">BytesTree</a>
- */
-@Getter
-@Setter
 public class AddEmployeeRq implements Serializable {
 
     private static final long serialVersionUID = -7760693098068384278L;
@@ -20,4 +10,44 @@ public class AddEmployeeRq implements Serializable {
     private String designation;
     private Integer salary;
     private Long departmentId;
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getDesignation() {
+        return designation;
+    }
+
+    public void setDesignation(String designation) {
+        this.designation = designation;
+    }
+
+    public Integer getSalary() {
+        return salary;
+    }
+
+    public void setSalary(Integer salary) {
+        this.salary = salary;
+    }
+
+    public Long getDepartmentId() {
+        return departmentId;
+    }
+
+    public void setDepartmentId(Long departmentId) {
+        this.departmentId = departmentId;
+    }
 }

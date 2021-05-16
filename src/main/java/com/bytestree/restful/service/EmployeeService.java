@@ -4,10 +4,6 @@ import com.bytestree.restful.dto.*;
 
 import java.util.List;
 
-/**
- * @author bytesTree
- * @see <a href="http://www.bytestree.com/">BytesTree</a>
- */
 public interface EmployeeService {
     AddEmployeeRs save(AddEmployeeRq employee);
 

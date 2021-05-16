@@ -10,10 +10,6 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/**
- * @author bytesTree
- * @see <a href="http://www.bytestree.com/">BytesTree</a>
- */
 @Service
 public class DefaultEmployeeService implements EmployeeService {
 
